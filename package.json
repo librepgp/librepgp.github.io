@@ -6,8 +6,8 @@
   "author": "asvny <annamalai.saro@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:11ty": "npx eleventy --config=_11ty/config.js --serve --watch",
-    "prod:11ty": "npx eleventy --config=_11ty/config.js",
+    "dev:11ty": "npx @11ty/eleventy --config=_11ty/config.js --serve --watch",
+    "prod:11ty": "npx @11ty/eleventy --config=_11ty/config.js",
     "start": "npm run dev:11ty",
     "build": "npm run prod:11ty"
   },
