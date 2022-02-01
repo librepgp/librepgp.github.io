@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
             input: 'src',
             includes: '_includes',
             data: '_data',
-            output: 'www',
+            output: '_site',
         },
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
