@@ -1,7 +1,7 @@
 
 module.exports = {
-  title: "Monospaced_",
-  description: "Monospaced is a eleventy blog theme template which is highly customizable and provides a reliable and accessible experience to the readers",
+  title: "LibrePGP",
+  description: "Software Engineer. Writing and coding about Bitcoin.",
   url: 'https://github.com/asvny/eleventy-blog-monospaced',
   baseUrl: '/',
   maxPostsInHomePage: 5,
@@ -13,8 +13,7 @@ module.exports = {
   includeServiceWorker: false,
 
   social: {
-    twitter: 'https://twitter.com/asvny_',
-    github: 'https://github.com/asvny',
-    email: 'annamalai.saro@gmail.com'
+    twitter: 'https://twitter.com/librepgp',
+    github: 'https://github.com/librepgp',
   }
 }

@@ -1,13 +1,13 @@
 ---
-title: "Frontend Developer"
-summary: "Currently interested in CSS architecture, functional programming, React, design systems, and state machines."
+title: "LibrePGP"
+summary: "Software Engineer. Writing and coding about Bitcoin."
 permalink: /index.html
 layout: layouts/default
 ---
 
 <section>
   <ul class="List MarginTop-xxl">
-    {% for post in collections.posts | take(site.maxPostsInHomePage) %}
+    {% for post in collections.posts %}
       <li class="List-Item">
         <h1 class="Heading">
           <a class="List-ItemLink" href="{{ post.url }}">
@@ -32,11 +32,3 @@ layout: layouts/default
     {% endfor %}
   </ul>
 </section>
-
-{% if collections.posts.length > site.maxPostsInHomePage %}
-  <section class="MarginTop-xxxl">
-    For more blog posts, you can visit
-    <a href="/archive" class="Link">
-      the archive</a>.
-  </section>
-{% endif %}
